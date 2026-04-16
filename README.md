@@ -49,3 +49,61 @@
     <script src="script.js"></script>
 </body>
 </html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 40px;
+    background: linear-gradient(135deg, #1f1f1f, #292929);
+}
+
+h1 {
+    font-size: 40px;
+    color: #00ffcc;
+}
+
+section {
+    padding: 30px;
+}
+
+.skills .skill-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill-box span {
+    background: #1f1f1f;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.skill-box span:hover {
+    background: #00ffcc;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    background: #00ffcc;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #1a1a1a;
+    padding: 10px;
+}
+function toggleMode() {
+    document.body.classList.toggle("light");
+}
